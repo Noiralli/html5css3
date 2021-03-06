@@ -202,6 +202,132 @@
   line-height: 24px;
   margin: 0;
 }
+/* --------- section reviews */
+.reviews {
+  background-color: #f5f5f5;
+  padding: 50px 0 50px 0;
+}
+.reviews_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.reviews_title {
+  color: #445161;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36px;
+  /* margin-bottom: 35px; */
+}
+.review_container {
+  background-color: #ebebeb;
+  padding: 16px;
+  border-radius: 6px;
+  position: relative;
+}
+.review_container::before {
+  content: "";
+  display: block;
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  border: 15px solid transparent;
+  border-right: 10px solid #ebebeb;
+  top: 25px;
+  left: -25px;
+}
+.reviews_containers {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.reviews_reveiw {
+  display: flex;
+  flex-direction: row;
+  flex-basis: 48%;
+  padding: 24px 24px 24px 0;
+  align-items: center;
+}
+.review_img {
+  margin-right: 30px;
+}
+.review_text {
+  color: #333333;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+}
+.review_autor {
+  color: #989898;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+}
+/* --------- section price_menu */
+.price_menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 0 50px 0;
+}
+.price_menu__title {
+  color: #445161;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36px;
+}
+.price_menu__card {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-around;
+  width: 83%;
+  flex-wrap: wrap;
+}
+.card_title {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 30px;
+  padding: 18px;
+}
+.card_price {
+  color: #445162;
+  font-size: 40px;
+  font-weight: 400;
+
+  border: 2px solid #445162;
+  background-color: #fff;
+  line-height: normal;
+}
+.card_description {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  padding: 18px 40px;
+}
+.card_button {
+  font-size: 16px;
+  text-align: center;
+  max-width: 260px;
+  height: auto;
+  padding: 14px 112px;
+  color: #445161;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 18px;
+  border-radius: 6px;
+  margin-bottom: 18px;
+}
+.price_menu__card__container {
+  background-color: #445162;
+  border-radius: 6px;
+  text-align: center;
+  max-width: 300px;
+  margin-bottom: 20px;
+}
 @font-face {
   font-family: "Arial";
   src: url("../fonts/ArialMT.ttf");
