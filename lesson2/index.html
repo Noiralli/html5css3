@@ -9,7 +9,8 @@
 </head>
 
 <body>
-    <div class="container">
+    <!-- main -->
+    <main class="container">
         <!-- section product -->
         <section class="product">
             <div class="main_container ">
@@ -48,9 +49,8 @@
         </section>
         <!-- section about_product -->
         <section class="main_container  about_product">
-            <div class="about_product_container ">
-                <h2 class=about_product__title>Dignity and pluses product</h2>
-                <ul class="about_product__list">
+            <h2 class=about_product__title>Dignity and pluses product</h2>
+            <ul class="about_product__list">
                     <li class="about_product__item">Delectus dolorem vero quae beatae quasi dolor deserunt iste amet
                         atque,
                         impedit iure placeat, ullam. Reprehenderit aliquam, nemo cum velit ratione perferendis quas,
@@ -81,14 +81,24 @@
                         impedit iure placeat, ullam. Reprehenderit aliquam, nemo cum velit ratione perferendis quas,
                         maxime,
                         quaerat porro totam, dolore minus inventore.</li>
-                </ul>
-            </div>
+            </ul>
         </section>
         <!-- section Screenshots -->
         <section class="screenshots">
             <h2 class="screenshots_title">Screenshots</h2>
-            <div class="screenshots_container">
-                <figure class="screenshots_images">
+            <figure class="screenshots_images">
+                <img src="./img/screenshots_image.png" alt="screenshots_image" height="150" width="200">
+                <figcaption class="screenshots_description">
+                        <h3>The description for the image</h3>
+                        <p>Pariatur iure ab sunt nesciunt, quibusdam odio iste cumque itaque, ipsa vel exercitationem
+                            ullam
+                            quos
+                            aut nostrum cupiditate fuga quaerat quam animi dolores. Sequi itaque, unde perferendis nemo
+                            debitis
+                            dolor.</p>
+                </figcaption>
+            </figure>
+            <figure class="screenshots_images">
                     <img src="./img/screenshots_image.png" alt="screenshots_image" height="150" width="200">
                     <figcaption class="screenshots_description">
                         <h3>The description for the image</h3>
@@ -99,8 +109,8 @@
                             debitis
                             dolor.</p>
                     </figcaption>
-                </figure>
-                <figure class="screenshots_images">
+            </figure>
+            <figure class="screenshots_images">
                     <img src="./img/screenshots_image.png" alt="screenshots_image" height="150" width="200">
                     <figcaption class="screenshots_description">
                         <h3>The description for the image</h3>
@@ -111,8 +121,8 @@
                             debitis
                             dolor.</p>
                     </figcaption>
-                </figure>
-                <figure class="screenshots_images">
+            </figure>
+            <figure class="screenshots_images">
                     <img src="./img/screenshots_image.png" alt="screenshots_image" height="150" width="200">
                     <figcaption class="screenshots_description">
                         <h3>The description for the image</h3>
@@ -123,20 +133,7 @@
                             debitis
                             dolor.</p>
                     </figcaption>
-                </figure>
-                <figure class="screenshots_images">
-                    <img src="./img/screenshots_image.png" alt="screenshots_image" height="150" width="200">
-                    <figcaption class="screenshots_description">
-                        <h3>The description for the image</h3>
-                        <p>Pariatur iure ab sunt nesciunt, quibusdam odio iste cumque itaque, ipsa vel exercitationem
-                            ullam
-                            quos
-                            aut nostrum cupiditate fuga quaerat quam animi dolores. Sequi itaque, unde perferendis nemo
-                            debitis
-                            dolor.</p>
-                    </figcaption>
-                </figure>
-            </div>
+            </figure>
         </section>
         <!-- section reviews -->
         <section class="reviews">
@@ -206,7 +203,9 @@
                     <li>Cum odio, iste quia doloribus autem;</li>
                     <li>Aperiam nulla ea neque.</li>
                 </ol>
-                <button class="card_button"><span>buy</span></button>
+                <button class="card_button">
+                    <span>buy</span>
+                </button>
             </div>
             <div class="price_menu__card">
                 <h3 class="card_title">Standart</h3>
@@ -221,7 +220,9 @@
                     <li>Cum odio, iste quia doloribus autem;</li>
                     <li>Aperiam nulla ea neque.</li>
                 </ol>
-                <button class="card_button"><span>buy</span></button>
+                <button class="card_button">
+                    <span>buy</span>
+                </button>
             </div>
             <div class="price_menu__card">
                 <h3 class="card_title">Standart</h3>
@@ -240,15 +241,54 @@
                     <li>Cum odio, iste quia doloribus autem;</li>
                     <li>Aperiam nulla ea neque.</li>
                 </ol>
-                <button class="card_button"><span>buy</span></button>
+                <button class="card_button">
+                    <span>buy</span>
+                </button>
             </div>
         </section>
-    </div>
+    </main>
+    <!-- footer -->
+    <footer class="footer container">
+        <!-- section Contacts -->
+        <section class="contacts">
+            <h2 class="contacts_title">Contacts</h2>
+            <form action="#" class="contacts_forms">
+                <input type="text" placeholder="Your name:" class="forms__name">
+                <input type="email" placeholder="Your email:" class="forms__email">
+                <textarea type="text" placeholder="Your message:" class="forms__textarea"></textarea>
+                <button type="submit" class="forms__button_send">
+                    <span>SEND</span>
+                </button>
+            </form>
+            <div class="contacts_public">
+                <ul class="public__list">
+                    <li class="public__skype">here_your_login_skype</li>
+                    <li class="public__icq">279679659</li>
+                    <li class="public__mail">psdhtmlcss@mail.ru</li>
+                    <li class="public__tel">80 00 4568 55 55</li>
+                </ul>
+                <div class="contacts__social_media">
+                    <a href="https://twitter.com/?lang=en">
+                        <i class="social_media__twitter"></i>
+                    </a>
+                    <a href="https://www.facebook.com/">
+                        <i class="social_media__facebook"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/">
+                        <i class="social_media__linkedin"></i>
+                    </a>
+                    <a href="https://www.google.com/">
+                        <i class="social_media__google"></i>
+                    </a>
+                    <a href="https://www.youtube.com/">
+                        <i class="social_media__youtube"></i>
+                    </a>
+                </div>
+            </div>
 
-    <!-- section Contacts -->
-
-    <!-- section footer -->
-
+        </section>
+        <p>Copyright &copy;&nbsp;2014 Product name &middot; PSD HTML&nbsp;CSS</p>
+    </footer>
 
 </body>
 
