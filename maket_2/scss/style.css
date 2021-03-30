@@ -195,7 +195,7 @@ body {
   align-items: center;
   position: absolute;
   top: 20px;
-  right: 20px;
+  right: 60px;
   width: 50px;
   height: 28px;
   cursor: pointer;
@@ -233,7 +233,7 @@ body {
   display: flex;
   visibility: hidden;
   top: 0;
-  right: -100%;
+  right: 0;
   width: 43vh;
   height: 62vh;
   margin: 0;
@@ -1303,7 +1303,6 @@ body {
 .posts_card_wrap_link::after {
   content: "";
   background-image: url(../img/posts_link_arrow.png);
-  /* background-color: red; */
   position: absolute;
   top: 4px;
   right: -14px;
@@ -1483,7 +1482,6 @@ body {
 .footer_content_article_preview_link::after {
   content: "";
   background-image: url(../img/posts_link_arrow.png);
-  /* background-color: red; */
   position: absolute;
   top: 6px;
   right: -14px;
